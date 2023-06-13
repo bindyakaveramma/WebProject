@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 25px;
+    justify-content: flex-end;
+  }
+  
+  .navbar_text{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+  
+  .search-bar{
+    background-image: url("girl_cover.jpg");
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  input{
+    /* position: absolute; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    margin-top: 55vh;
+    margin-left: 32%;
+    opacity: 0.5;
+    border-radius: 20px;
+    width: 36%;
+    height: 5%;
+    padding: 0 0 0 1.5%;
+  }
+  
+  .block{
+    border-radius: 4px;
+    display: inline-grid;
+    height: 35vh;
+    width: 24vh;
+    background-color: white;
+    margin: 3% 1% 2% 3%;
+  }
+  
+  .latest-hits, .genres{
+    background-color: black;
+    padding: 10% 0 0 0;
+  }
+  
+  p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 3%;
+  }
